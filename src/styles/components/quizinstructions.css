@@ -1,0 +1,30 @@
+
+.btn-instructions{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+Link{
+    color: black;
+}
+
+
+.left-l,
+.right-l {
+    color: black;
+    background-color: rgb(17, 132, 185);
+    
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+    width: 20%;
+    transition: 0.2s linear all;
+}
+
+.left:hover,
+.right:hover{
+    background-color: rgba(57, 146, 197, 0.808);
+}

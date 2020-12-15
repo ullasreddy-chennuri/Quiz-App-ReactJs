@@ -1,0 +1,72 @@
+#home {
+    background-image: url('../../assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+}
+
+#icon-main{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#home h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+#home section{
+    background-color: rgba(0, 0, 0, 0.68);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 80%;
+    width: 35%;
+}
+
+.play-button-container{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.auth-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.auth-container .auth-buttons{
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    padding: 1rem;
+    text-align: center;
+    width: 46%;
+    transition: 0.2s linear all;
+}
+
+.auth-container .auth-buttons:hover{
+    background-color: rgba(255, 99, 71, 0.808);
+}
+
+a.play-button{
+    font-size: 1.25rem;
+    border-radius: 30px;
+    background-color: #57b846;
+    color: whitesmoke;
+    cursor: pointer;
+    display: block;
+    width: 98%;
+    text-align: center;
+    padding: 1rem;
+    transition: 0.2s linear all;
+}
+
+a.play-button:hover{
+    background-color: #5daa4fe5;
+}
